@@ -1,0 +1,9 @@
+Special Installation steps
+1. Install Plugin - CHECK
+2. Activate Plugin - CHECK
+3. Visit SETTTINGS->PERMALINKS and "SAVE CHANGES". This will rewrite the htaccess file to recognize the new archive type
+4. Update Theme
+5. Customize PRESS SETTINGS
+6. Regenerate Thumbnails
+7. Update Menus if necessary
+8. Disable Gallery plugin

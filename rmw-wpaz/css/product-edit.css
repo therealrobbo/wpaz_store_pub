@@ -1,0 +1,18 @@
+table#rmw_product_history td, table#rmw_product_history th {
+    padding: 5px 10px;
+}
+
+table#rmw_product_history tr:nth-child(even) {
+    background: #eee
+}
+table#rmw_product_history tr:nth-child(odd) {
+    background: #FFF
+}
+
+.sales_rank_change_negative, table#rmw_product_history td.rank_increase, table#rmw_product_history td.price_increase {
+    color: #a00;
+}
+
+.sales_rank_change_positive, table#rmw_product_history td.rank_decrease, table#rmw_product_history td.price_decrease {
+    color: #0a0;
+}

@@ -1,0 +1,43 @@
+.rmw_meta {
+
+}
+
+.rmw_meta_row {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rmw_meta_control_group {
+    margin-bottom: 10px;
+}
+
+.rmw_meta_control_group label {
+    width: 150px;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+.rmw_meta_small {
+    width: 100px;
+}
+
+.rmw_meta_medium {
+     width: 200px;
+ }
+
+.rmw_meta_large {
+    width: 400px;
+}
+
+.rmw_meta_xl {
+    width: 100%;
+}
+
+.rmw_meta h5 {
+    font-size: 14px;
+    padding: 8px 0;
+    margin: 0;
+    line-height: 1.4;
+}

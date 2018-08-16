@@ -1,0 +1,79 @@
+/*
+Basic CSS for Product listings. These styles can be modified and overwritten by including the following file in your theme:
+
+css/product-listing.css
+*/
+.product_preview {
+    border-bottom: 1px solid #eee;
+    clear: both;
+    margin-bottom: 15pt;
+    padding-bottom: 15pt;
+}
+
+.product_shortcode {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.product_img {
+    float: left;
+    padding: 10pt 1pt;
+}
+.product_img:hover {
+    background-color: #ff9100;
+}
+
+.product_copy {
+    float: left;
+}
+
+.product_copy h3 {
+    font-size: 14pt;
+    margin-bottom: 5pt;
+}
+
+.product_copy a h3:hover,
+.product_copy h3:hover
+.product_copy a:hover {
+    color: #ff9100;
+}
+
+.product_info label {
+    width: 100px;
+}
+
+.product_info.product_strikethrough span {
+    text-decoration: line-through;
+}
+
+.product-button {
+    background: #f6d89f;
+    background-image: -webkit-linear-gradient(top,#f6d89f,#fda130);
+    background-image: -moz-linear-gradient(top,#f6d89f,#fda130);
+    background-image: -ms-linear-gradient(top,#f6d89f,#fda130);
+    background-image: -o-linear-gradient(top,#f6d89f,#fda130);
+    background-image: linear-gradient(to bottom,#f6d89f,#fda130);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px #666666;
+    -moz-box-shadow: 0 1px 3px #666666;
+    box-shadow: 0 1px 3px #666666;
+    color: #000;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: solid #bd6100 1px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10pt;
+}
+
+.product-button a {
+    color: #fff;
+}
+
+.product-button a:hover {
+    color: #000;
+}
